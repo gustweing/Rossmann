@@ -89,15 +89,55 @@ In Univariate will be checked the limits of each variable, bivariate will se how
 
 * Step 5 - Data Preparation
 
+The preparation of data will take place of this stage. It's mean use some methods to transform them.
+It will be used "Rescaling Method" and "Transformation", wich contains the following steps: One Hot Encoding, Label Encoding, Ordinal Encoding and Nature Transform.
+
 * Step 6 - Feature Selection
+
+The Feature Selection step will to ocurr with the support of Boruta Algorythm. With it we will change the best features to use in our model. With this, we try to evoid the occurrence of overfiting.
+In this point, we need use the knowledge gain with the EDA and mix it with the chosen features by Boruta. One of the biggest importance of EDA is showed here, where we mix the human knowledge about the business with the learning adquired by model. From that, the final columns will be chosed.  
 
 * Step 7 - Machine Learning Model
 
+How we are using a cyclic model, our objective is have one solution as fast as we could. Because of this we gonna use non complex models. In each cycle this Machine Learning listed can be changed, always trying to find the better one with the better results and using less computacional power. 
+Here we will use five different kinds of Models:
+1 - Average Model: This model is very important to serve as a parameter. This average model works like playing a coin, trying to guess a result.
+2 - Linear Regression Model: Always using the concept of "ockham's razor", we need to try with a simple model. Using an simple model like Liner Regression, it means the data has linear features, so we can use more complex linear models.
+3 - Linear Regression Regularized Model - Lasso: Always using the concept of "ockham's razor", we need to try with a simple model. Using an simple model like Liner Regression, it means the data has linear features, so we can use more complex linear models.
+4 - Randon Forest - Are non-linear models, trying to model the complexity of the dataset.
+5 - XGBoost Regressor - Are non-linear models, trying to model the complexity of the dataset.
+
+![image](https://user-images.githubusercontent.com/83656797/178176479-c3666c5e-299e-45f4-8729-ffc428775be5.png)
+
+The phenomenon that we are trying to model is a complex problem, so linear models will not work as well with this kind of problems. We will use a XGBoost for our official model in this cycle.
+
 * Step 8 - Hyperparameter Fine Tuning
+
+In this step are found the best paramethers for the XGBoost. Here an important choosen needs to be done. Focusing in CRISP model, we will optate by Randon Search model because the time that we have.
 
 * Step 9 - Interpreting the errors
 
+In this step we have the explanation about the models. For this project, we used three metrics:
+MAE (Mean Absolute Error)
+MAPE (Mean Absolute Percentage Error)
+RMSE (Root Mean Squared Error)
+
+
+MAE's characteristics:
+Has te same weight for all errors. It means the value of error can be high ou low, all depends of business. It's a good metric for the business team. 
+
+MAPE's characteristics:
+It shows the average of error, in percentage. The model has the best behaviour with the value being lower. The MAPE has a big correlation with MAE's data because the porcentage showed by MAPE is based on value showed by MAE.
+ 
+RMSE's characteristics:
+If we have errors with outliers, it gets a lot of weight. The RMSE can be used to detail the upgrades that must be done in model. Aren't a good metric to be showed by Business Team. 
+
+In this steps yet will be made the translation of the values of the model into real values for the CFO. 
+
 * Step 10 - Publishing Model
+
+The deploy will be made into a Heroku Cloud and be done an API request by Telegram's Bot.
+Here the User will write the store's number and will see the value for the next six weeks.
 
 # 4.0 Top Insights
 
