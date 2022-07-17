@@ -41,7 +41,7 @@ This dataset has the following Features:
  
  The resolution of all problems bellow can be found in this notebook:
  
- [NOTEBOOK]()
+ [NOTEBOOK](https://github.com/gustweing/Rossmann/blob/main/Rossmann%20Sales.ipynb)
 
 # 2.0 Business Assumptions
 
@@ -141,9 +141,7 @@ Here the User will write the store's number and will see the value for the next 
 
 ![image](https://user-images.githubusercontent.com/83656797/179426690-24f7931f-4e03-4c5e-b5e3-6fda201f693d.png)
 
-You can see how the Telegram's Bot works here: 
-
-![Telegram](https://www.linkedin.com/feed/)
+You can see how the Telegram's Bot works is this [Demonstration](https://www.linkedin.com/feed/)
 
 
 # 4.0 Top Insights
