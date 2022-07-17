@@ -172,6 +172,7 @@ The model generate a Dataframe of each Store with the values foreseen separated 
 
 ![image](https://user-images.githubusercontent.com/83656797/179425903-9c2d9ad8-84ae-45ca-817b-4dfb5f9d7caf.png)
 
+You can see how the Telegram's Bot works here: [Telegram's Bot](https://www.linkedin.com/feed/)  
 
 # 7.0 Next Steps
 
