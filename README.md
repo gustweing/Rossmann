@@ -139,12 +139,54 @@ In this steps yet will be made the translation of the values of the model into r
 The deploy will be made into a Heroku Cloud and be done an API request by Telegram's Bot.
 Here the User will write the store's number and will see the value for the next six weeks.
 
+![image](https://user-images.githubusercontent.com/83656797/179426690-24f7931f-4e03-4c5e-b5e3-6fda201f693d.png)
+
+
 # 4.0 Top Insights
+The main hypothesis found in EDA:
 
-# 5.0 Business Results
+1 - Stores with bigger assortments should sell more.
 
-# 6.0 Conclusions
+**True**: Stores with bigger assortments really sells more then the others two types.
+
+![image](https://user-images.githubusercontent.com/83656797/179421670-3eb526dc-3c74-473d-8b4e-188d47e6824f.png)
+
+
+2 - Stores with more closest competitors shoul sell less.
+
+**False**: There is no evidence that the fact that there are closer competitors will impact the fact of selling more or less.
+
+![image](https://user-images.githubusercontent.com/83656797/179420557-9c745f99-60b4-40a2-b5ac-a6542fb36db7.png)
+
+
+3 - Stores with activate promotions for a long time should sell more.
+
+**False**: Store with promo activate for a long time sell less after some time.
+
+![image](https://user-images.githubusercontent.com/83656797/179421580-bc70451b-65ec-40f4-a291-56310b35dd7f.png)
+
+
+# 5.0 Conclusions
+
+The model generate a Dataframe of each Store with the values foreseen separated in Worst Scenario, Best Scenario also with the MAE and MAPE statistics. From now on the CFO can see the value of each store for the next six weeks and make the best decisions from there.
+
+![image](https://user-images.githubusercontent.com/83656797/179425903-9c2d9ad8-84ae-45ca-817b-4dfb5f9d7caf.png)
+
 
 # 7.0 Next Steps
 
+For the next cicles some changes can be made. 
+- Create new variables that can be important for the business;
+- Collect more data trying maximize the performance;
+- Try more complex Machine Learning Models;
+- Collect feedback of CFO for maximize the performance;
+
 # 8.0 Technologies
+
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
