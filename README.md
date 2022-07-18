@@ -141,7 +141,7 @@ Here the User will write the store's number and will see the value for the next 
 
 ![image](https://user-images.githubusercontent.com/83656797/179426690-24f7931f-4e03-4c5e-b5e3-6fda201f693d.png)
 
-You can see how the Telegram's Bot works is this [Demonstration](https://www.linkedin.com/feed/)
+You can see how the Telegram's Bot works is this [Demonstration](https://www.linkedin.com/feed/update/urn:li:activity:6954601872070426624/)
 
 
 # 4.0 Top Insights
