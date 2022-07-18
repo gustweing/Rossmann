@@ -175,7 +175,7 @@ The model generate a Dataframe of each Store with the values foreseen separated 
 ![image](https://user-images.githubusercontent.com/83656797/179425903-9c2d9ad8-84ae-45ca-817b-4dfb5f9d7caf.png)
 
 
-# 7.0 Next Steps
+# 6.0 Next Steps
 
 For the next cicles some changes can be made. 
 - Create new variables that can be important for the business;
@@ -183,7 +183,7 @@ For the next cicles some changes can be made.
 - Try more complex Machine Learning Models;
 - Collect feedback of CFO for maximize the performance;
 
-# 8.0 Technologies
+# 7.0 Technologies
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
